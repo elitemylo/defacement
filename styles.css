@@ -1,0 +1,43 @@
+.mylo-ribbon {
+  width: 100%;
+  height: 40vh;
+  background-color: #57d53b;
+  flex-shrink: 0;
+}
+
+.mylo-main {
+  margin-top: -35vh;
+  flex-shrink: 0;
+}
+
+.mylo-header .mdl-layout__header-row {
+  padding-left: 40px;
+}
+
+.mylo-container {
+  max-width: 1600px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+}
+
+.mylo-content {
+  border-radius: 2px;
+  padding: 80px 56px;
+  margin-bottom: 80px;
+}
+
+.mylo-layout.is-small-screen .mylo-content {
+  padding: 40px 28px;
+}
+
+.mylo-content h3 {
+  margin-top: 48px;
+}
+
+.mylo-footer {
+  padding-left: 40px;
+}
+
+.mylo-footer .mdl-mini-footer--link-list a {
+  font-size: 13px;
+}
